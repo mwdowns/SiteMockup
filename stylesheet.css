@@ -22,19 +22,16 @@ body {
 }
 
 #column1 {
-  height: 100%;
   /*background-color: #113b51;*/
   text-align: center;
 }
 
 #column2 {
-  height: 100%;
   /*background-color: #6f90a2;*/
   text-align: center;
 }
 
 #column3 {
-  height: 100%;
   /*background-color: #113b51;*/
   text-align: center;
 }
@@ -43,16 +40,21 @@ body {
   background: linear-gradient(to bottom, #6f90a2, lightblue);
 }
 
-#profile1 {
-  height: 300px;
+.profile1 {
   /*background-color: lightblue;*/
+  padding: 50px 100px;
   text-align: center;
   color: black;
 }
 
 #profile2 {
-  height: 300px;
   /*background-color: lightblue;*/
   text-align: center;
   color: black;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
 }
